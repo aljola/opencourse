@@ -1,8 +1,9 @@
+
 ---
 applications:
 
 - name: address-manager
-  memory: 768M
+  memory: 720M
   random-route: true
   path: application/target/address-manager-application.war
   buildpack: sap_java_buildpack
